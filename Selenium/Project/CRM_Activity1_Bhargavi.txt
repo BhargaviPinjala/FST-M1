@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class CRM_Activity1_Bhargavi {
     public static void main(String[] args) throws InterruptedException {
-
+        System.setProperty("webdriver.chrome.driver","C:\\Selenium drivers\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver = new FirefoxDriver();
 
         driver.get("https://alchemy.hguy.co/crm/");
